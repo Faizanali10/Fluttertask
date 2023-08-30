@@ -326,6 +326,8 @@ String name='';
                               ],
                             ),
                           ),
+                          name==''?const SizedBox():card(name),
+
                         ],
                       ),
                     ),
@@ -591,7 +593,6 @@ String name='';
                   ],
                 ),
               ),
-              name==''?const SizedBox():card(name),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: SizedBox(
